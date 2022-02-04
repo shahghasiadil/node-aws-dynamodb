@@ -1,5 +1,4 @@
-
-var AWS = require("aws-sdk");
+const AWS = require("aws-sdk");
 
 AWS.config.update({
     region: "local",
